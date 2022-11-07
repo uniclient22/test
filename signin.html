@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!---- Website Title ---->
+    <title>Sign In - Visathing</title>
+    <!------- Favicon ------->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <!------- Icons ------->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!------- CSS Here ------->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- Header start-->
+    <header>
+        <!-- Topbar Start -->
+        <div class="topbar fs-12 d-none d-lg-block">
+            <div class="container d-flex justify-content-between">
+                <ul class="topbar-left d-flex">
+                    <li><a href="tel:+880 1642924081"><span class="fas fa-phone-alt"></span>+880 1642924081</a></li>
+                    <li><a href="mailto:info@gmail.com"><span class="fas fa-envelope"></span>info@gmail.com</a></li>
+                    <li><span class="fas fa-map-marker-alt"></span>3517 W. Gray St.
+                        Utica, Pennsylvania 57867</li>
+                </ul>
+                <ul class="topbar-right d-flex">
+                    <li class="topbar-signin"><a href="/signin.html">
+                            <span class="fas fa-user-alt"></span>Sign in
+                        </a></li>
+                    <li class="topbar-signup"><a href="/signup.html"><span class="fas fa-sign-out-alt"></span>Sign
+                            Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Topbar End -->
+        <!-- Navbar start-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- Logo Here -->
+                <a class="navbar-brand" href="/index.html"><img src="./assets/img/logo.png" alt="" class="logo"></a>
+                <div class="d-flex d-lg-none">
+                    <form class="nav-search-bar border-radius-5">
+                        <input class="nav-search-input" type="search" placeholder="Application tracking">
+                        <button class="nav-search-icon bgc-gradient border-radius-5" type="submit"><span
+                                class="fas fa-search"></span></button>
+                    </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="offcanvas offcanvas-start d-flex d-lg-none" tabindex="-1" id="offcanvasNav"
+                    aria-labelledby="offcanvasNavLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/basic-information.html">Our Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/visa-consultancy.html">- Visa Consultancy</a></li>
+                                    <li><a class="dropdown-item" href="/visa-processing-in-india.html">- Visa Processing in
+                                        India</a></li>
+                                    <li><a class="dropdown-item" href="/visa-processing-in-nepal.html">- Visa Processing in
+                                        Nepal</a></li>
+                                    <li><a class="dropdown-item" href="/e-visa-processing.html">- E-Visa Processing</a></li>
+                                    <li><a class="dropdown-item" href="/one-way-collection.html">- One Way Collection</a></li>
+                                    <li><a class="dropdown-item" href="/document-legalization.html">- Document
+                                        Legalization</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-gradient" href="/visa-eligibility-checker.html">Visa Eligibility
+                                    Checker</a>
+                            </li>
+                        </ul>
+                        <form class="nav-search-bar border-radius-5 d-none d-lg-flex">
+                            <input class="nav-search-input" type="search" placeholder="Application tracking">
+                            <button class="nav-search-icon bgc-gradient border-radius-5" type="submit"><span
+                                    class="fas fa-search"></span></button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Main Menu -->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html" aria-current="page">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="/basic-information.html"
+                                data-bs-toggle="dropdown">Our Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/visa-consultancy.html">Visa Consultancy</a></li>
+                                <li><a class="dropdown-item" href="/visa-processing-in-india.html">Visa Processing in
+                                        India</a></li>
+                                <li><a class="dropdown-item" href="/visa-processing-in-nepal.html">Visa Processing in
+                                        Nepal</a></li>
+                                <li><a class="dropdown-item" href="/e-visa-processing.html">E-Visa Processing</a></li>
+                                <li><a class="dropdown-item" href="/one-way-collection.html">One Way Collection</a></li>
+                                <li><a class="dropdown-item" href="/document-legalization.html">Document
+                                        Legalization</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-gradient" href="/visa-eligibility-checker.html">Visa Eligibility
+                                Checker</a>
+                        </li>
+                    </ul>
+                    <form class="nav-search-bar border-radius-5 d-none d-lg-flex">
+                        <input class="nav-search-input" type="search" placeholder="Application tracking">
+                        <button class="nav-search-icon bgc-gradient border-radius-5" type="submit"><span
+                                class="fas fa-search"></span></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End-->
+    </header>
+    <!-- Header End-->
+    <!-- Page Content -->
+    <section class="signin">
+        <div class="container">
+            <div class="signin-form">
+                <div class="text-center content-text">
+                    <h2>Welcome</h2>
+                    <p>Sign in to continue to VISAThing.</p>
+                </div>
+                <form>
+                    <div class="username-field form-field">
+                        <label for="inputUsername" class="form-label">Username</label>
+                        <div class="input-field d-flex align-items-center">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.99967 8.16666V9.33333C6.07142 9.33333 5.18118 9.70208 4.5248 10.3585C3.86842 11.0148 3.49967 11.9051 3.49967 12.8333H2.33301C2.33301 11.5957 2.82467 10.4087 3.69984 9.5335C4.57501 8.65833 5.762 8.16666 6.99967 8.16666ZM6.99967 7.58333C5.06592 7.58333 3.49967 6.01708 3.49967 4.08333C3.49967 2.14958 5.06592 0.583328 6.99967 0.583328C8.93342 0.583328 10.4997 2.14958 10.4997 4.08333C10.4997 6.01708 8.93342 7.58333 6.99967 7.58333ZM6.99967 6.41666C8.28884 6.41666 9.33301 5.3725 9.33301 4.08333C9.33301 2.79416 8.28884 1.74999 6.99967 1.74999C5.71051 1.74999 4.66634 2.79416 4.66634 4.08333C4.66634 5.3725 5.71051 6.41666 6.99967 6.41666ZM12.2497 9.91666H12.833V12.8333H8.16634V9.91666H8.74967V9.33333C8.74967 8.8692 8.93405 8.42408 9.26224 8.09589C9.59043 7.7677 10.0355 7.58333 10.4997 7.58333C10.9638 7.58333 11.4089 7.7677 11.7371 8.09589C12.0653 8.42408 12.2497 8.8692 12.2497 9.33333V9.91666ZM11.083 9.91666V9.33333C11.083 9.17862 11.0216 9.03025 10.9122 8.92085C10.8028 8.81145 10.6544 8.75 10.4997 8.75C10.345 8.75 10.1966 8.81145 10.0872 8.92085C9.9778 9.03025 9.91634 9.17862 9.91634 9.33333V9.91666H11.083Z"
+                                    fill="#86868B" />
+                            </svg>
+                            <input type="text" class="form-control" id="inputUsername" placeholder="Type your username">
+                        </div>
+                    </div>
+                    <div class="password-field form-field">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <div class="input-field  d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.5 4.66668V4.08334C3.5 3.15509 3.86875 2.26485 4.52513 1.60847C5.1815 0.952092 6.07174 0.583344 7 0.583344C7.92826 0.583344 8.8185 0.952092 9.47487 1.60847C10.1313 2.26485 10.5 3.15509 10.5 4.08334V4.66668H11.6667C11.8214 4.66668 11.9697 4.72814 12.0791 4.83753C12.1885 4.94693 12.25 5.0953 12.25 5.25001V12.25C12.25 12.4047 12.1885 12.5531 12.0791 12.6625C11.9697 12.7719 11.8214 12.8333 11.6667 12.8333H2.33333C2.17862 12.8333 2.03025 12.7719 1.92085 12.6625C1.81146 12.5531 1.75 12.4047 1.75 12.25V5.25001C1.75 5.0953 1.81146 4.94693 1.92085 4.83753C2.03025 4.72814 2.17862 4.66668 2.33333 4.66668H3.5ZM11.0833 5.83334H2.91667V11.6667H11.0833V5.83334ZM6.41667 9.17701C6.19425 9.0486 6.02042 8.85039 5.92214 8.61311C5.82386 8.37584 5.80662 8.11276 5.87309 7.86469C5.93956 7.61662 6.08603 7.39741 6.28978 7.24107C6.49353 7.08472 6.74318 6.99998 7 6.99998C7.25682 6.99998 7.50647 7.08472 7.71022 7.24107C7.91397 7.39741 8.06044 7.61662 8.12691 7.86469C8.19338 8.11276 8.17614 8.37584 8.07786 8.61311C7.97958 8.85039 7.80575 9.0486 7.58333 9.17701V10.5H6.41667V9.17701ZM4.66667 4.66668H9.33333V4.08334C9.33333 3.46451 9.0875 2.87101 8.64992 2.43343C8.21233 1.99584 7.61884 1.75001 7 1.75001C6.38116 1.75001 5.78767 1.99584 5.35008 2.43343C4.9125 2.87101 4.66667 3.46451 4.66667 4.08334V4.66668Z"
+                                        fill="#86868B" />
+                                </svg>
+                                <input type="password" class="form-control" id="inputPassword"
+                                    placeholder="Type your password">
+                            </div>
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.4307 11.2566C9.40477 11.9073 8.21449 12.252 6.99956 12.25C3.85423 12.25 1.23739 9.98668 0.688477 7.00001C0.939327 5.64126 1.62276 4.40003 2.63681 3.46151L0.81156 1.63801L1.63698 0.812592L13.1864 12.3626L12.361 13.1874L10.4301 11.2566H10.4307ZM3.46164 4.28751C2.6689 5.00827 2.11666 5.95513 1.87964 7.00001C2.06181 7.79711 2.42755 8.54068 2.94773 9.17152C3.46791 9.80237 4.12818 10.3031 4.87597 10.6338C5.62376 10.9645 6.43842 11.116 7.25511 11.0764C8.0718 11.0368 8.86797 10.8071 9.58023 10.4055L8.39723 9.22251C7.89363 9.53973 7.29718 9.6764 6.7057 9.6101C6.11422 9.54379 5.56283 9.27845 5.14198 8.85759C4.72112 8.43674 4.45578 7.88535 4.38947 7.29387C4.32317 6.70239 4.45983 6.10594 4.77706 5.60234L3.46164 4.28751ZM7.53273 8.35801L5.64156 6.46684C5.53776 6.73105 5.51334 7.01982 5.57127 7.29771C5.62921 7.5756 5.76699 7.83055 5.96771 8.03127C6.16844 8.232 6.42338 8.36978 6.70128 8.42771C6.97917 8.48565 7.26793 8.46122 7.53214 8.35743L7.53273 8.35801ZM12.137 9.67867L11.3022 8.84451C11.6922 8.28877 11.9698 7.6622 12.1195 7.00001C11.9609 6.30568 11.6629 5.65084 11.2434 5.0753C10.8239 4.49975 10.2918 4.01552 9.67932 3.65203C9.06687 3.28854 8.3869 3.05339 7.68074 2.96087C6.97458 2.86835 6.25698 2.9204 5.57156 3.11384L4.65106 2.19334C5.37848 1.90751 6.17123 1.75001 6.99956 1.75001C10.1449 1.75001 12.7617 4.01334 13.3106 7.00001C13.1319 7.97167 12.7301 8.8886 12.137 9.67867ZM6.83798 4.37967C7.20927 4.35673 7.58121 4.41296 7.92913 4.54465C8.27704 4.67634 8.593 4.88047 8.85605 5.14352C9.11909 5.40657 9.32323 5.72252 9.45492 6.07044C9.5866 6.41836 9.64284 6.79029 9.61989 7.16159L6.83739 4.37967H6.83798Z"
+                                    fill="#86868B" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="form-checkbox d-flex justify-content-between">
+                        <div class="remember-me-checkbox form-check">
+                            <input type="checkbox" class="form-check-input" id="remember-me">
+                            <label class="form-check-label" for="remember-me">Remember Me</label>
+                        </div>
+                        <p><a href="">Forget Password?</a></p>
+                    </div>
+                    <button type="submit" class="btn signin-submit-btn">Submit</button>
+                </form>
+                <p class="signin-or-with">Or With</p>
+                <ul class="signin-social-icons">
+                    <li><a href=""><svg width="12" height="21" viewBox="0 0 12 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.43435 4.76884H11.0119V0.961334H7.98193V0.975066C4.31063 1.10509 3.55819 3.16881 3.49187 5.33633H3.48432V7.23762H0.984375V10.9663H3.48432V20.9613H7.25187V10.9663H10.3381L10.9343 7.23762H7.25311V6.08891C7.25311 5.35638 7.74054 4.76884 8.43435 4.76884Z"
+                                    fill="#3B5998" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li><a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.31891 14.5038L4.4835 17.6225L1.43011 17.6871C0.517594 15.9946 0 14.0581 0 12.0003C0 10.0104 0.483938 8.13389 1.34175 6.4816H1.34241L4.06078 6.97997L5.25159 9.68204C5.00236 10.4086 4.86652 11.1886 4.86652 12.0003C4.86661 12.8812 5.02617 13.7251 5.31891 14.5038Z"
+                                    fill="#FBBB00" />
+                                <path d="M23.7892 9.75842C23.927 10.4843 23.9989 11.234 23.9989 12.0002C23.9989 12.8593 23.9086 13.6973 23.7365 14.5057C23.1523 17.2565 21.6259 19.6584 19.5114 21.3582L19.5108 21.3575L16.0869 21.1828L15.6023 18.1578C17.0053 17.3349 18.1018 16.0472 18.6794 14.5057H12.2627V9.75842H18.773H23.7892Z"
+                                    fill="#518EF8" />
+                                <path d="M19.5114 21.3571L19.5121 21.3577C17.4556 23.0107 14.8433 23.9997 11.9996 23.9997C7.42969 23.9997 3.45652 21.4454 1.42969 17.6865L5.31848 14.5032C6.33187 17.2078 8.94089 19.1331 11.9996 19.1331C13.3143 19.1331 14.546 18.7777 15.6029 18.1573L19.5114 21.3571Z"
+                                    fill="#28B446" />
+                                <path d="M19.6606 2.76262L15.7731 5.94525C14.6793 5.26153 13.3863 4.86656 12.001 4.86656C8.8731 4.86656 6.21529 6.88017 5.25266 9.68175L1.34343 6.48131H1.34277C3.33993 2.63077 7.36321 0 12.001 0C14.9127 0 17.5823 1.03716 19.6606 2.76262Z"
+                                    fill="#F14336" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+                <p class="no-account">Don’t Have an Account?&nbsp;&nbsp;<span><a href="/signup.html">Sign Up</a></span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Page Content -->
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-item item-1">
+                            <h3>Disclaimer</h3>
+                            <ul class="item-1-content">
+                                <li>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Fermentum vitae turpis morbi diam adipiscing placerat pellentesque tortor in.</li>
+                                <li>
+                                    <ul class="d-flex">
+                                        <li><a href="https://www.facebook.com/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="https://www.instagram.com/" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                                        <li><a href="https://twitter.com/" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="https://www.youtube.com/" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="footer-item item-2">
+                            <h3>Menu</h3>
+                            <ul class="item-2-content">
+                                <li><a href="/about.html"><span class="fas fa-circle"></span>About Us</a></li>
+                                <li><a href="/basic-information.html"><span class="fas fa-circle"></span>Services</a>
+                                </li>
+                                <li><a href="/appointment.html"><span class="fas fa-circle"></span>Appointment</a></li>
+                                <li><a href="/contacts.html"><span class="fas fa-circle"></span>Contact
+                                    Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="footer-item item-3">
+                            <h3>Quick Links</h3>
+                            <ul class="item-3-content">
+                                <li><a href="/signin.html"><span class="fas fa-circle"></span>Sign In/Sign Up</a></li>
+                                <li><a href="/termsandconditions.html"><span class="fas fa-circle"></span>Terms &
+                                    Conditions</a></li>
+                                <li><a href="/privacy-policy.html"><span class="fas fa-circle"></span>Privacy &
+                                    Policy</a></li>
+                                <li><a href="/refund-policy.html"><span class="fas fa-circle"></span>Refund Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-item item-4">
+                            <h3>Newsletter</h3>
+                            <ul class="item-4-content">
+                                <li>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Fermentum vita.</li>
+                                <li>
+                                    <form class="footer-newsletter border-radius-5">
+                                        <label><input class="footer-newsletter-input" type="search"
+                                                      placeholder="Enter your mail"></label>
+                                        <button class="footer-newsletter-icon bgc-gradient border-radius-5"
+                                                type="submit"><svg width="20" height="22" viewBox="0 0 20 22" fill="none"
+                                                                   xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                    d="M0.741 0.408106L19.203 10.5621C19.2814 10.6053 19.3468 10.6687 19.3923 10.7457C19.4378 10.8228 19.4618 10.9106 19.4618 11.0001C19.4618 11.0896 19.4378 11.1774 19.3923 11.2545C19.3468 11.3315 19.2814 11.3949 19.203 11.4381L0.741 21.5921C0.664873 21.634 0.579148 21.6553 0.492273 21.654C0.405398 21.6526 0.320372 21.6287 0.245577 21.5844C0.170781 21.5402 0.108797 21.4773 0.0657334 21.4018C0.0226703 21.3264 1.48755e-05 21.241 0 21.1541V0.846106C1.48755e-05 0.75922 0.0226703 0.673839 0.0657334 0.598376C0.108797 0.522913 0.170781 0.459974 0.245577 0.415763C0.320372 0.371552 0.405398 0.347594 0.492273 0.346251C0.579148 0.344908 0.664873 0.366227 0.741 0.408106ZM2 12.0001V18.6171L15.85 11.0001L2 3.38311V10.0001H7V12.0001H2Z"
+                                                    fill="white" />
+                                        </svg>
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-7 col-md-6 order-1 order-md-0">
+                        <div class="copyright">
+                            <p class="fs-14">Copyright @ 2021. All Rights Reserved | VISAThing is a registered
+                                Trademark of Your
+                                Trip Mate Ltd.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 ">
+                        <div class="payment-methods d-flex justify-content-end align-items-center">
+                            <span>We Accept</span>
+                            <span class="payment-methods-icons"><img src="./assets/img/payment-methods.png" alt=""
+                                                                     class="img-fluid"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Back to top -->
+    <a href="#" class="back-to-top"><svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M6.99928 2.82783L2.04928 7.77783L0.635281 6.36383L6.99928 -0.000168403L13.3633 6.36383L11.9493 7.77783L6.99928 2.82783Z"
+                fill="#2B2B2B" />
+        </svg>
+    </a>
+    <!--------- JS Here --------->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <!-- Circle Progress Bar -->
+    <script src="./assets/js/circle-progress.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/script.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="assets/js/custom.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!---- Website Title ---->
+    <title>Flexible Submission - Visathing</title>
+    <!------- Favicon ------->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <!------- Icons ------->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!------- CSS Here ------->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- Header start-->
+    <header>
+        <!-- Topbar Start -->
+        <div class="topbar fs-12 d-none d-lg-block">
+            <div class="container d-flex justify-content-between">
+                <ul class="topbar-left d-flex">
+                    <li><a href="tel:+880 1642924081"><span class="fas fa-phone-alt"></span>+880 1642924081</a></li>
+                    <li><a href="mailto:info@gmail.com"><span class="fas fa-envelope"></span>info@gmail.com</a></li>
+                    <li><span class="fas fa-map-marker-alt"></span>3517 W. Gray St.
+                        Utica, Pennsylvania 57867</li>
+                </ul>
+                <ul class="topbar-right d-flex">
+                    <li class="topbar-signin"><a href="/signin.html">
+                            <span class="fas fa-user-alt"></span>Sign in
+                        </a></li>
+                    <li class="topbar-signup"><a href="/signup.html"><span class="fas fa-sign-out-alt"></span>Sign
+                            Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Topbar End -->
+        <!-- Navbar start-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- Logo Here -->
+                <a class="navbar-brand" href="/index.html"><img src="./assets/img/logo.png" alt="" class="logo"></a>
+                <div class="d-flex d-lg-none">
+                    <form class="nav-search-bar border-radius-5">
+                        <input class="nav-search-input" type="search" placeholder="Application tracking">
+                        <button class="nav-search-icon bgc-gradient border-radius-5" type="submit"><span
+                                class="fas fa-search"></span></button>
+                    </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="offcanvas offcanvas-start d-flex d-lg-none" tabindex="-1" id="offcanvasNav"
+                    aria-labelledby="offcanvasNavLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/basic-information.html">Our Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/visa-consultancy.html">- Visa Consultancy</a></li>
+                                    <li><a class="dropdown-item" href="/visa-processing-in-india.html">- Visa Processing in
+                                        India</a></li>
+                                    <li><a class="dropdown-item" href="/visa-processing-in-nepal.html">- Visa Processing in
+                                        Nepal</a></li>
+                                    <li><a class="dropdown-item" href="/e-visa-processing.html">- E-Visa Processing</a></li>
+                                    <li><a class="dropdown-item" href="/one-way-collection.html">- One Way Collection</a></li>
+                                    <li><a class="dropdown-item" href="/document-legalization.html">- Document
+                                        Legalization</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-gradient" href="/visa-eligibility-checker.html">Visa Eligibility
+                                    Checker</a>
+                            </li>
+                        </ul>
+                        <form class="nav-search-bar border-radius-5 d-none d-lg-flex">
+                            <input class="nav-search-input" type="search" placeholder="Application tracking">
+                            <button class="nav-search-icon bgc-gradient border-radius-5" type="submit"><span
+                                    class="fas fa-search"></span></button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Main Menu -->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html" aria-current="page">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="/basic-information.html"
+                                data-bs-toggle="dropdown">Our Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/visa-consultancy.html">Visa Consultancy</a></li>
+                                <li><a class="dropdown-item" href="/visa-processing-in-india.html">Visa Processing in
+                                        India</a></li>
+                                <li><a class="dropdown-item" href="/visa-processing-in-nepal.html">Visa Processing in
+                                        Nepal</a></li>
+                                <li><a class="dropdown-item" href="/e-visa-processing.html">E-Visa Processing</a></li>
+                                <li><a class="dropdown-item" href="/one-way-collection.html">One Way Collection</a></li>
+                                <li><a class="dropdown-item" href="/document-legalization.html">Document
+                                        Legalization</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-gradient" href="/visa-eligibility-checker.html">Visa Eligibility
+                                Checker</a>
+                        </li>
+                    </ul>
+                    <form class="nav-search-bar border-radius-5 d-none d-lg-flex">
+                        <input class="nav-search-input" type="search" placeholder="Application tracking">
+                        <button class="nav-search-icon bgc-gradient border-radius-5" type="submit"><span
+                                class="fas fa-search"></span></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End-->
+    </header>
+    <!-- Header End-->
+    <!-- Page Name -->
+    <section class="page-name text-center">
+        <div class="container">
+            <h1>Flexible Submission</h1>
+        </div>
+    </section>
+    <!-- Page Name -->
+    <!-- Page Content Start-->
+    <section class="page-content visa-free flexible-submission">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-text text-center">
+                        <h2>Nepalese Citizens Get Their Visas Stamped Through Authorized Person From Designated Consular
+                            Offices For 81 Countries</h2>
+                        <p>Do you need to process a visa? VISAThing will help you arrange the necessary documents and
+                            flexibly submit your visa application to the designated embassy/visa center or consulate
+                            office in Nepal as well as in India. You don’t have to travel to India, take all the
+                            tiresome hassles by yourself. We’ll take care of all the issues and keep you updated about
+                            the step by step processes until you get your desired visa. You can track your application’s
+                            progress with VISAThing online tracking service.</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="content-image-gallery">
+                        <div class="row justify-content-xl-start justify-content-center">
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/afganistan.png" class="img-fluid" alt="">
+                                    <h3>Afganistan</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/algeria.png" class="img-fluid" alt="">
+                                    <h3>Algeria</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/amdprra.png" class="img-fluid" alt="">
+                                    <h3>Amdprra</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/angola.png" class="img-fluid" alt="">
+                                    <h3>Angola</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/armenia.png" class="img-fluid" alt="">
+                                    <h3>Armenia</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/bahrain.png" class="img-fluid" alt="">
+                                    <h3>Bahrain</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-xl-0">
+                                    <img src="./assets/img/flag/barbados.png" class="img-fluid" alt="">
+                                    <h3>Barbados</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/belarus.png" class="img-fluid" alt="">
+                                    <h3>Belarus</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/belzie.png" class="img-fluid" alt="">
+                                    <h3>Belzie</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/bhutan.png" class="img-fluid" alt="">
+                                    <h3>Bhutan</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/botswanna.png" class="img-fluid" alt="">
+                                    <h3>Botswanna</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/brazil.png" class="img-fluid" alt="">
+                                    <h3>Brazil</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/brunei.png " class="img-fluid" alt="">
+                                    <h3>Brunei</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/bulgaria.png" class="img-fluid" alt="">
+                                    <h3>Bulgaria</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/lesotho.png" class="img-fluid" alt="">
+                                    <h3>Burkina Faso</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/rwanda.png" class="img-fluid" alt="">
+                                    <h3>Burundi</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/malawi.png" class="img-fluid" alt="">
+                                    <h3>Cameroon</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/malaysia.png" class="img-fluid" alt="">
+                                    <h3>Cameroon</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/tanzania.png" class="img-fluid" alt="">
+                                    <h3>Chad</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/myanmar.png" class="img-fluid" alt="">
+                                    <h3>Chile</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/uganda.png" class="img-fluid" alt="">
+                                    <h3>Colombia</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/republic-congo.png" class="img-fluid" alt="">
+                                    <h3>Republic of the congo</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/democratic-republic-congo.png" class="img-fluid" alt="">
+                                    <h3>Democratic Republic of the Congo</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/costa-rica.png" class="img-fluid" alt="">
+                                    <h3>Costa Rica</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/cyprus.png" class="img-fluid" alt="">
+                                    <h3>Cyprus</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/cuba.png" class="img-fluid" alt="">
+                                    <h3>Cuba</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/dominican-republic.png" class="img-fluid" alt="">
+                                    <h3>Dominican Republic</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/equtorial-gulnea.png" class="img-fluid" alt="">
+                                    <h3>Equtorial Gulnea</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/eritrea.png" class="img-fluid" alt="">
+                                    <h3>Eritrea</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/eswatini.png" class="img-fluid" alt="">
+                                    <h3>Eswatini</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/fiji.png" class="img-fluid" alt="">
+                                    <h3>Fiji</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/ghana.png" class="img-fluid" alt="">
+                                    <h3>Ghana</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/grenada.png" class="img-fluid" alt="">
+                                    <h3>Grenada</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/guatemala.png" class="img-fluid" alt="">
+                                    <h3>Guatemala</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-xl-0">
+                                    <img src="./assets/img/flag/guyana.png" class="img-fluid" alt="">
+                                    <h3>Guyana</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/honduras.png" class="img-fluid" alt="">
+                                    <h3>Honduras</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/Iraq.png" class="img-fluid" alt="">
+                                    <h3>Iraq</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/ireland.png" class="img-fluid" alt="">
+                                    <h3>Ireland</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/israel.png" class="img-fluid" alt="">
+                                    <h3>Israel</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/jamaica.png" class="img-fluid" alt="">
+                                    <h3>Jamaica</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/japan.png" class="img-fluid" alt="">
+                                    <h3>Japan</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/jordan.png" class="img-fluid" alt="">
+                                    <h3>Jordan</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/kazakhstan.png" class="img-fluid" alt="">
+                                    <h3>Kazakhstan</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/kiribati.png" class="img-fluid" alt="">
+                                    <h3>Kiribati</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/north-korea.png" class="img-fluid" alt="">
+                                    <h3>North Korea</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/kuwait.png" class="img-fluid" alt="">
+                                    <h3>Kuwait</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/latvia.png" class="img-fluid" alt="">
+                                    <h3>Latvia</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/lebanon.png" class="img-fluid" alt="">
+                                    <h3>Lebanon</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/liberia.png" class="img-fluid" alt="">
+                                    <h3>Liberia</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/libya.png" class="img-fluid" alt="">
+                                    <h3>Libya</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/marshall-islands.png" class="img-fluid" alt="">
+                                    <h3>Marshall Islands</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/monaco.png" class="img-fluid" alt="">
+                                    <h3>Monaco</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/mongolia.png" class="img-fluid" alt="">
+                                    <h3>Mongolia</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/montenegro.png" class="img-fluid" alt="">
+                                    <h3>Montenegro</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/namibia.png" class="img-fluid" alt="">
+                                    <h3>Namibia</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/nauru.png" class="img-fluid" alt="">
+                                    <h3>Nauru</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/new-zealand.png" class="img-fluid" alt="">
+                                    <h3>New Zealand</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/nicaragua.png" class="img-fluid" alt="">
+                                    <h3>Nicaragua</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/niger.png" class="img-fluid" alt="">
+                                    <h3>Niger</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/nigeria.png" class="img-fluid" alt="">
+                                    <h3>Nigeria</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/oman.png" class="img-fluid" alt="">
+                                    <h3>Oman</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/panama.png" class="img-fluid" alt="">
+                                    <h3>Panama</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-xl-0">
+                                    <img src="./assets/img/flag/papua-new-gulnea.png" class="img-fluid" alt="">
+                                    <h3>Papua New Gulnea</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+                            <div class="col-auto">
+                                <div class="flag-info  text-center">
+                                    <img src="./assets/img/flag/pero.png" class="img-fluid" alt="">
+                                    <h3>Pero</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/philippines.png" class="img-fluid" alt="">
+                                    <h3>Philippines</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/romania.png" class="img-fluid" alt="">
+                                    <h3>Romania</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/russia.png" class="img-fluid" alt="">
+                                    <h3>Russia</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/saint-lucia.png" class="img-fluid" alt="">
+                                    <h3>Saint Lucia</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/san-marino.png" class="img-fluid" alt="">
+                                    <h3>San Marino</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/saudi-arabia.png" class="img-fluid" alt="">
+                                    <h3>Saudi Arabia</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/sierra-leone.png" class="img-fluid" alt="">
+                                    <h3>Sierra Leone</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/south-africa.png" class="img-fluid" alt="">
+                                    <h3>South Africa</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/thailand.png" class="img-fluid" alt="">
+                                    <h3>Thailand</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/tonga.png" class="img-fluid" alt="">
+                                    <h3>Tonga</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/trinidad-tobago.png" class="img-fluid" alt="">
+                                    <h3>Trinidad & Tobago</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/tunisia.png" class="img-fluid" alt="">
+                                    <h3>Tunisia</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/vanuatu.png" class="img-fluid" alt="">
+                                    <h3>Vanuatu</h3>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 d-xl-block d-none">
+                                <div class="divider-lg"></div>
+                            </div>  -->
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/vatican-city.png" class="img-fluid" alt="">
+                                    <h3>Vatican City</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/venezuela.png" class="img-fluid" alt="">
+                                    <h3>Venezuela</h3>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/vietnam.png" class="img-fluid" alt="">
+                                    <h3>Vietnam</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-auto">
+                                <div class="flag-info  text-center mr-0">
+                                    <img src="./assets/img/flag/yemen.png" class="img-fluid" alt="">
+                                    <h3>Yemen</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-item item-1">
+                            <h3>Disclaimer</h3>
+                            <ul class="item-1-content">
+                                <li>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Fermentum vitae turpis morbi diam adipiscing placerat pellentesque tortor in.</li>
+                                <li>
+                                    <ul class="d-flex">
+                                        <li><a href="https://www.facebook.com/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="https://www.instagram.com/" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                                        <li><a href="https://twitter.com/" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="https://www.youtube.com/" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="footer-item item-2">
+                            <h3>Menu</h3>
+                            <ul class="item-2-content">
+                                <li><a href="/about.html"><span class="fas fa-circle"></span>About Us</a></li>
+                                <li><a href="/basic-information.html"><span class="fas fa-circle"></span>Services</a>
+                                </li>
+                                <li><a href="/appointment.html"><span class="fas fa-circle"></span>Appointment</a></li>
+                                <li><a href="/contacts.html"><span class="fas fa-circle"></span>Contact
+                                    Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="footer-item item-3">
+                            <h3>Quick Links</h3>
+                            <ul class="item-3-content">
+                                <li><a href="/signin.html"><span class="fas fa-circle"></span>Sign In/Sign Up</a></li>
+                                <li><a href="/termsandconditions.html"><span class="fas fa-circle"></span>Terms &
+                                    Conditions</a></li>
+                                <li><a href="/privacy-policy.html"><span class="fas fa-circle"></span>Privacy &
+                                    Policy</a></li>
+                                <li><a href="/refund-policy.html"><span class="fas fa-circle"></span>Refund Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-item item-4">
+                            <h3>Newsletter</h3>
+                            <ul class="item-4-content">
+                                <li>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Fermentum vita.</li>
+                                <li>
+                                    <form class="footer-newsletter border-radius-5">
+                                        <label><input class="footer-newsletter-input" type="search"
+                                                      placeholder="Enter your mail"></label>
+                                        <button class="footer-newsletter-icon bgc-gradient border-radius-5"
+                                                type="submit"><svg width="20" height="22" viewBox="0 0 20 22" fill="none"
+                                                                   xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                    d="M0.741 0.408106L19.203 10.5621C19.2814 10.6053 19.3468 10.6687 19.3923 10.7457C19.4378 10.8228 19.4618 10.9106 19.4618 11.0001C19.4618 11.0896 19.4378 11.1774 19.3923 11.2545C19.3468 11.3315 19.2814 11.3949 19.203 11.4381L0.741 21.5921C0.664873 21.634 0.579148 21.6553 0.492273 21.654C0.405398 21.6526 0.320372 21.6287 0.245577 21.5844C0.170781 21.5402 0.108797 21.4773 0.0657334 21.4018C0.0226703 21.3264 1.48755e-05 21.241 0 21.1541V0.846106C1.48755e-05 0.75922 0.0226703 0.673839 0.0657334 0.598376C0.108797 0.522913 0.170781 0.459974 0.245577 0.415763C0.320372 0.371552 0.405398 0.347594 0.492273 0.346251C0.579148 0.344908 0.664873 0.366227 0.741 0.408106ZM2 12.0001V18.6171L15.85 11.0001L2 3.38311V10.0001H7V12.0001H2Z"
+                                                    fill="white" />
+                                        </svg>
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-7 col-md-6 order-1 order-md-0">
+                        <div class="copyright">
+                            <p class="fs-14">Copyright @ 2021. All Rights Reserved | VISAThing is a registered
+                                Trademark of Your
+                                Trip Mate Ltd.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 ">
+                        <div class="payment-methods d-flex justify-content-end align-items-center">
+                            <span>We Accept</span>
+                            <span class="payment-methods-icons"><img src="./assets/img/payment-methods.png" alt=""
+                                                                     class="img-fluid"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Back to top -->
+    <a href="#" class="back-to-top"><svg width="14" height="8" viewBox="0 0 14 8" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M6.99928 2.82783L2.04928 7.77783L0.635281 6.36383L6.99928 -0.000168403L13.3633 6.36383L11.9493 7.77783L6.99928 2.82783Z"
+                fill="#2B2B2B" />
+        </svg>
+    </a>
+    <!--------- JS Here --------->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <!-- Circle Progress Bar -->
+    <script src="./assets/js/circle-progress.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/script.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="assets/js/custom.min.js"></script>
+</body>
+
+</html>
